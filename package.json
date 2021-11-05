@@ -1,0 +1,22 @@
+{
+    "name": "vscode-python-pack",
+    "displayName": "vscode python pack",
+    "description": "python开发包",
+    "publisher": "anaer",
+    "version": "0.0.1",
+    "icon": "icon.png",
+    "repository": {
+        "url": "https://github.com/anaer/vscode-python-pack.git"
+    },
+    "engines": {
+        "vscode": "^1.56.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [
+        "anaer.vscode-base-pack",
+        "ms-python.python",
+        "ms-python.vscode-pylance"
+    ]
+}
